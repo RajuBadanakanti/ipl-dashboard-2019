@@ -1,0 +1,60 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.team-link {
+  width: 46%;
+  list-style-type: none;
+}
+.link {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  min-height: 150px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+  margin: 15px;
+  text-decoration: none;
+}
+.team-img {
+  width: 22%;
+  margin-right: 20px;
+}
+.team-name {
+  width: 60%;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 30px;
+  text-align: center;
+}
+/* >>>>>>>>>>> Mobile Device >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media screen and (max-width: 767px) {
+  /* Write your CSS here */
+  .team-link {
+    width: 50%;
+    list-style-type: none;
+  }
+  .link {
+    background-color: #ffffff33;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    min-height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    margin: 10px;
+  }
+  .team-img {
+    width: 30%;
+    margin-right: 10px;
+  }
+  .team-name {
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 12px;
+    text-align: center;
+  }
+}
